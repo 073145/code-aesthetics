@@ -1,81 +1,103 @@
-# code-aesthetics: Engenharia Criativa e Arte Algorítmica
+CODE-AESTHETICS │ Transdução Algorítmica
 
-> **Um ponto de encontro para a engenharia criativa: demos de síntese de padrões visuais e sonoros, exploração de estéticas geradas por algoritmos e a subversão do código para expressão artística. Pura craft e experimentação.**
-
-Um laboratório para a criação de artefatos digitais onde o código é a ferramenta, e algoritmos são o meio para forjar experiências visuais e sonoras. Aqui, desvendamos e re-imaginamos o comportamento dos sistemas para dar vida a estéticas generativas, manipulando pixels, sinais e fluxos de informação em tempo real.
+"O código é o meio. Os algoritmos são o cinzel. A tela é a retina."
 
 ---
 
-## 🌟 Princípios Orientadores (Nova Composição)
+## 🎨 Escopo do Projeto
 
-Nossa abordagem é guiada pela paixão por explorar o código como um meio criativo, seguindo estes princípios fundamentais:
+CODE-AESTHETICS é o laboratório de Transdução Algorítmica dentro do ecossistema.
 
-1.  **Craft Algorítmico:** Focar na criação artesanal de algoritmos que geram resultados visuais e sonoros complexos e inesperados a partir de regras simples.
-2.  **Subversão Criativa:** Entender as ferramentas e sistemas digitais profundamente para, então, subverter suas funções padrão e encontrar novas formas de expressão.
-3.  **Síntese de Padrões:** Explorar a geração procedural de padrões, formas, cores e sons, revelando a beleza intrínseca da matemática e da lógica computacional.
-4.  **Tempo Real e Interatividade:** Priorizar demos que permitam manipulação em tempo real, onde o código responde e evolui dinamicamente à interação ou ao fluxo de tempo.
-5.  **Código Aberto e Compartilhável:** Fomentar a cultura do FLOSS, permitindo que outros explorem, modifiquem e aprendam com cada "hack" criativo.
+Ele funciona como um "Córtex Visual" desacoplado. Enquanto motores de inferência, sistemas financeiros ou sensores biológicos produzem estados matemáticos abstratos (vetores, níveis de entropia, matrizes), este repositório contém a lógica para traduzir esses sinais invisíveis em Artefatos Visuais e Sonoros perceptíveis.
 
----
+Não se trata apenas de uma galeria de demonstrações; é uma instalação de pesquisa em Semiótica Generativa, explorando como a lógica computacional pode ser subvertida para expressar o estado interno da máquina ou visualizar fluxos de dados arbitrários.
 
-## 🗺️ Estrutura Detalhada do Repositório
+### Princípios Orientadores
 
-Os demos e experimentos são organizados por tipo de saída (visual/sonoro) ou pela técnica algorítmica principal.
+- Craft Algorítmico: Foco na criação artesanal de funções que geram resultados complexos e emergentes a partir de regras axiomáticas simples (Autômatos Celulares, L-Systems).
 
-<br>
+- Subversão Criativa: Entendimento profundo de sistemas digitais (buffers, memória, shaders) para criar "glitches" controlados ou reaproveitá-los para expressão não intencional.
 
-* ### `00-Core-Concepts-and-Tooling/`
-    > Fundamentos teóricos e ferramentas essenciais para a arte algorítmica e a síntese de padrões.
-    >
-    * **`00.1-Generative-Algorithms/`** (`README.md` sobre Perlin noise, fractais, cellular automata, L-systems)
-    * **`00.2-Signal-Processing-Basics/`** (`README.md` sobre síntese aditiva/subtrativa, FFT, filtros)
-    * **`00.3-Real-Time-Frameworks/`** (`README.md` sobre Processing, OpenFrameworks, P5.js, VJ software, SuperCollider)
-    * **`00.4-Hacker-Aesthetics-Manifesto/`** (`README.md` com referências a glitch art, demoscene, net art e cultura hacker)
+- Síntese de Padrões: Geração procedural de geometria e ritmo para revelar a beleza intrínseca da lógica matemática.
 
-* ### `01-Visual-Synthesis-Demos/`
-    > Experimentos focados na geração de gráficos e padrões visuais.
-    >
-    * **`chroma-key-stream/`** (Ex: Manipulação de pixels e cores para efeitos visuais em tempo real)
-    * **`geometric-patterns/`** (Ex: Geração de fractais, tesselações, padrões mandelbrot/julia)
-    * **`shader-experiments/`** (Ex: Explorando GLSL para gráficos generativos na GPU)
-    * **`data-driven-art/`** (Ex: Visualização artística de dados como parte de um padrão generativo)
-
-* ### `02-Auditory-Synthesis-Demos/`
-    > Experimentos focados na geração de sons, música e paisagens sonoras algorítmicas.
-    >
-    * **`granular-synth/`** (Ex: Sintetizador granular com manipulação em tempo real)
-    * **`negentropy-sonify/`** (Ex: Sonificação de dados ou processos complexos, explorando a ordem e o caos)
-    * **`rhythm-generators/`** (Ex: Algoritmos para padrões rítmicos complexos e polirritmias)
-    * **`loveletterbomb/`** (Ex: Experimentação com geração de texto/código com padrões estéticos ou conceituais)
-
-* ### `03-Interactive-and-Performance-Demos/`
-    > Projetos que exploram a interatividade e o uso em performances ao vivo.
-    >
-    * **`live-coding-environments/`** (Ex: Configurações e scripts para live coding com Sonic Pi, SuperCollider, Hydra)
-    * **`midi-controllers/`** (Ex: Demos de código reagindo a inputs MIDI para gerar arte/som)
-    * **`sensor-feedback-loops/`** (Ex: Utilizando dados de sensores (webcam, microfone) para feedback visual/sonoro)
+- Transdução em Tempo Real: Prioridade para sistemas que respondem dinamicamente a fluxos de dados externos (sensores, logs de sistema) em vez de renderização estática.
 
 ---
 
-## 🛠️ Tecnologias Comuns
+## 🗺️ Estrutura do Repositório
 
-* **Linguagens:** `Python` (Pyglet, NumPy, SciPy), `JavaScript` (P5.js, WebGL), `C++` (OpenFrameworks, Cinder), `Lua` (Love2D), `GLSL` (Shaders)
-* **Frameworks:** `Processing`, `SuperCollider`, `Sonic Pi`, `Hydra`, `Pure Data`, `OpenCV`
-* **APIs:** `AudioContext API`, `Canvas API`, `Web MIDI API`
+Os experimentos são organizados por modalidade de transdução (Visual vs. Auditiva) e técnica empregada.
+
+#### 00-Core-Concepts
+
+A Teoria. Fundamentos da geração procedural.
+
+- 00.1-Generative-Algorithms: Implementações de ruído Perlin/Simplex, Fractais, Autômatos Celulares e sistemas de Reação-Difusão.
+
+- 00.2-Signal-Processing: Lógica de visualização FFT (Fast Fourier Transform), matemática de síntese aditiva/subtrativa.
+
+- 00.3-Hacker-Aesthetics: Um manifesto sobre Glitch Art, ética da Demoscene e o uso "brutalista" de interfaces de terminal.
+
+#### 01-Visual-Synthesis
+
+O Olho. Pipelines de geração gráfica.
+
+- chroma-flux: Manipulação de pixels e loops de feedback de buffer (anteriormente chroma-key-stream).
+
+- geometric-tessellation: Geometria recursiva, conjuntos de Mandelbrot/Julia e diagramas de Voronoi.
+
+- shader-lab: Experimentos em GLSL para gráficos generativos acelerados por GPU.
+
+- data-driven-art: O pipeline que converte vetores de dados arbitrários em representações visuais persistentes.
+
+#### 02-Auditory-Synthesis
+
+O Ouvido. Geração de som e sonificação.
+
+- granular-engine: Síntese granular em tempo real e manipulação de amostras.
+
+- negentropy-sonify: Conversão de métricas de entropia do sistema em paisagens sonoras (ex: maior carga de CPU = distorção/agudos mais altos).
+
+- euclidean-rhythms: Geração algorítmica de batidas baseada em distribuição geométrica.
+
+- loveletterbomb: Geração conceitual de texto e cargas de arte ASCII.
+
+#### 03-Live-Coding
+
+A Performance. Ambientes de interação em tempo real.
+
+- hydra-scripts: Visuais de live-coding usando Hydra (JavaScript) para performance baseada na web.
+
+- strudel-cycles: Padrões de codificação de áudio inspirados em TidalCycles.
+
+- sensor-feedback: Loops utilizando inputs externos (Webcam/Microfone/Biossinais) para pilotar parâmetros audiovisuais.
 
 ---
 
-## ⚙️ Como Contribuir
+## 🛠️ Tech Stack
 
-Este repositorio é um espaço para a criatividade e a exploração. Se você tem um "hack" algorítmico, um experimento visual/sonoro ou uma nova forma de manipular sinais:
+- Linguagens: Python (NumPy, SciPy), JavaScript (P5.js, Hydra), C++ (OpenFrameworks), GLSL.
 
-1.  Faça um fork do repositório.
-2.  Crie uma branch para sua contribuição.
-3.  Adicione seu demo (com um `README.md` detalhado e instruções de como rodar).
-4.  Abra um Pull Request descrevendo suas mudanças.
+- Frameworks: Processing, SuperCollider, Sonic Pi, TouchDesigner.
+
+- Interfaces: WebGL, Canvas API, Web Audio API, MIDI.
 
 ---
 
-## 📜 Licença
+## ⚙️ Contribuição
 
-Este repositório é distribuído sob a licença [BSD-2-Clause](LICENSE.md).
+Este repositório é um espaço aberto para pesquisa estética.
+
+1. Fork do repositório.
+
+2. Branch para o seu experimento específico (feature/novo-algo-glitch).
+
+3. Documente o algoritmo no README local.
+
+4. Submeta um Pull Request.
+
+---
+
+## ⚖️ Licença
+
+### BSD-2-Clause
