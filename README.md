@@ -1,4 +1,4 @@
-CODE-AESTHETICS │ Transdução Algorítmica
+# CODE-AESTHETICS │ Transdução Algorítmica
 
 "O código é o meio. Os algoritmos são o cinzel. A tela é a retina."
 
