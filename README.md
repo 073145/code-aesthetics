@@ -8,7 +8,7 @@ CODE-AESTHETICS é o laboratório de **Transdução Algorítmica** do ecossistem
 
 É uma instalação de pesquisa em **Semiótica Generativa**, explorando como a lógica computacional pode ser subvertida para expressar estados internos da máquina ou visualizar padrões invisíveis.
 
-### Princípios Orientadores (Hacker Aesthetics Integrado)
+### Princípios Orientadores
 
 * **Craft Algorítmico:** Foco na criação artesanal de funções que geram resultados complexos e emergentes a partir de regras axiomáticas simples (Autômatos Celulares, L-Systems).
 * **Subversão Criativa / Brutalismo:** Uso intencional de *glitches* controlados e reaproveitamento "brutalista" de *buffers*, memória e interfaces de terminal. A estética do erro é um reflexo do estado interno do sistema.
