@@ -1,9 +1,3 @@
-Compreendido. Remoção da pasta e integração do conteúdo `Hacker-Aesthetics` nos princípios orientadores.
-
-Aqui está o `README.md` revisado, conciso e pronto, com a adaptação do *Manifesto Brutalista* na seção de princípios.
-
----
-
 ## 🎨 CODE-AESTHETICS: Transdução Algorítmica
 
 > "O código é o meio. Os algoritmos são o cinzel. A tela é a retina."
