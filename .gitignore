@@ -1,0 +1,18 @@
+# Binários
+*.exe
+*.o
+*.bin
+*.dll
+*.lib
+
+# Python/Node
+__pycache__/
+venv/
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Logs e Temporários
+log/
+temp/
